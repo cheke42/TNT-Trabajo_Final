@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="183.0" prefWidth="236.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tnt.controller.ControladorPreposiciones">
+   <children>
+      <TextField fx:id="fieldPreposiciones" layoutX="14.0" layoutY="14.0" prefHeight="25.0" prefWidth="206.0" />
+      <Button fx:id="btnAbrirCorchete" layoutX="34.0" layoutY="59.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" text="[" textAlignment="CENTER" textOverrun="CLIP">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnCerrarParentesis" layoutX="77.0" layoutY="59.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" text="]" textAlignment="CENTER" textOverrun="CLIP">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnAbrirParentesis" layoutX="122.0" layoutY="59.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" text="(" textAlignment="CENTER" textOverrun="CLIP">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnCerrarParentesis" layoutX="166.0" layoutY="59.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" text=")" textAlignment="CENTER" textOverrun="CLIP">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnConjuncion" layoutX="166.0" layoutY="101.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" text="^" textAlignment="CENTER" textOverrun="CLIP">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnDiyuncion" layoutX="122.0" layoutY="101.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" text="v" textAlignment="CENTER" textOverrun="CLIP">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnAsignacion" layoutX="77.0" layoutY="101.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" text="→" textAlignment="CENTER" textOverrun="CLIP">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnNegacion" layoutX="34.0" layoutY="101.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" text="¬" textAlignment="CENTER" textOverrun="CLIP">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnAceptar" layoutX="77.0" layoutY="148.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="60.0" text="Aceptar" />
+      <Button fx:id="btnLimpiar" layoutX="150.0" layoutY="147.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="60.0" text="Limpiar" />
+      <Label fx:id="lblCantCorchetesAbierto" layoutX="34.0" layoutY="42.0" prefWidth="40.0" text="Label" textAlignment="CENTER" visible="false" />
+      <Label fx:id="lblCantCorchetesCerrados" layoutX="79.0" layoutY="42.0" prefWidth="40.0" text="Label" textAlignment="CENTER" visible="false" />
+      <Label fx:id="lblCantParentesisAbierto" layoutX="122.0" layoutY="42.0" prefWidth="40.0" text="Label" textAlignment="CENTER" visible="false" />
+      <Label fx:id="lblCantParentesisCerrado" layoutX="166.0" layoutY="42.0" prefWidth="40.0" text="Label" textAlignment="CENTER" visible="false" />
+   </children>
+</AnchorPane>
